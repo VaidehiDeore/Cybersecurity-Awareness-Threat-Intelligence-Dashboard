@@ -1,0 +1,277 @@
+[
+  {
+    "id": "A01",
+    "title": "Phishing Awareness",
+    "category": "Phishing",
+    "what": "Phishing uses deceptive messages to influence people into unsafe actions.",
+    "warning_signs": [
+      "Urgency or pressure",
+      "Unexpected attachment",
+      "Credential request",
+      "Look-alike sender/domain",
+      "Unexpected QR code"
+    ],
+    "safe_practices": [
+      "Verify the sender using a trusted channel",
+      "Hover/check links before opening",
+      "Report suspicious messages",
+      "Never share MFA codes"
+    ],
+    "action": "Report suspicious messages through your approved reporting process."
+  },
+  {
+    "id": "A02",
+    "title": "Password Security",
+    "category": "Passwords",
+    "what": "Strong, unique credentials reduce the impact of password reuse and guessing.",
+    "warning_signs": [
+      "Password reuse",
+      "Short predictable passwords",
+      "Credentials shared in chat",
+      "Saved secrets in plain text"
+    ],
+    "safe_practices": [
+      "Use unique passphrases",
+      "Use a password manager",
+      "Never reuse important passwords",
+      "Enable MFA"
+    ],
+    "action": "Replace a reused password with a unique passphrase."
+  },
+  {
+    "id": "A03",
+    "title": "MFA & Passkeys",
+    "category": "MFA",
+    "what": "MFA adds an additional authentication factor; phishing-resistant methods provide stronger protection.",
+    "warning_signs": [
+      "Unexpected MFA prompt",
+      "Someone asking for a code",
+      "Repeated prompts"
+    ],
+    "safe_practices": [
+      "Use authenticator/passkeys where available",
+      "Deny unexpected prompts",
+      "Never share codes"
+    ],
+    "action": "Review MFA methods on important accounts."
+  },
+  {
+    "id": "A04",
+    "title": "Social Engineering",
+    "category": "Social Engineering",
+    "what": "Social engineering manipulates people rather than exploiting software directly.",
+    "warning_signs": [
+      "Authority pressure",
+      "Secrecy requests",
+      "Unusual payment requests",
+      "Impersonation"
+    ],
+    "safe_practices": [
+      "Pause and verify",
+      "Use known contact details",
+      "Follow approval processes"
+    ],
+    "action": "Verify unusual requests through a separate trusted channel."
+  },
+  {
+    "id": "A05",
+    "title": "Safe Browsing",
+    "category": "Safe Browsing",
+    "what": "Safe browsing reduces exposure to deceptive links and untrusted downloads.",
+    "warning_signs": [
+      "Unexpected redirects",
+      "Look-alike domains",
+      "Untrusted downloads"
+    ],
+    "safe_practices": [
+      "Use bookmarks for sensitive services",
+      "Keep browsers updated",
+      "Avoid unknown downloads"
+    ],
+    "action": "Update your primary browser and review extensions."
+  },
+  {
+    "id": "A06",
+    "title": "Software Updates",
+    "category": "Software Updates",
+    "what": "Keeping operating systems, applications, browsers, and security tools updated helps reduce exposure to known security weaknesses.",
+    "warning_signs": [
+      "Repeated update reminders",
+      "Unsupported software",
+      "Very old application versions",
+      "Security updates being postponed"
+    ],
+    "safe_practices": [
+      "Install updates from trusted sources",
+      "Enable automatic updates where appropriate",
+      "Restart devices when required",
+      "Remove unsupported software"
+    ],
+    "action": "Check one important device or application for pending security updates."
+  },
+  {
+    "id": "A07",
+    "title": "Ransomware Awareness",
+    "category": "Ransomware",
+    "what": "Ransomware can disrupt services and may involve data theft or extortion.",
+    "warning_signs": [
+      "Unexpected encryption alerts",
+      "Unusual file access",
+      "Suspicious attachments"
+    ],
+    "safe_practices": [
+      "Maintain tested backups",
+      "Patch systems",
+      "Use least privilege",
+      "Report suspicious activity quickly"
+    ],
+    "action": "Confirm important backups exist and are recoverable."
+  },
+  {
+    "id": "A08",
+    "title": "USB & Removable Media Safety",
+    "category": "Removable Media",
+    "what": "Untrusted removable media can introduce security and data-exposure risks.",
+    "warning_signs": [
+      "Unknown USB device",
+      "Unexpected files appearing",
+      "Unapproved removable media",
+      "Requests to connect unknown devices"
+    ],
+    "safe_practices": [
+      "Use approved removable media",
+      "Avoid unknown USB devices",
+      "Follow organizational scanning procedures",
+      "Protect sensitive data stored on removable media"
+    ],
+    "action": "Review your organization's approved removable-media policy."
+  },
+  {
+    "id": "A09",
+    "title": "Data Privacy",
+    "category": "Privacy",
+    "what": "Data minimization limits the impact of accidental exposure.",
+    "warning_signs": [
+      "Oversharing",
+      "Unnecessary personal data collection",
+      "Public documents"
+    ],
+    "safe_practices": [
+      "Share only necessary data",
+      "Review access permissions",
+      "Remove unnecessary sensitive data"
+    ],
+    "action": "Review one cloud folder or shared document for unnecessary access."
+  },
+  {
+    "id": "A10",
+    "title": "Secure Wi-Fi",
+    "category": "Wi-Fi",
+    "what": "Secure network practices reduce the risk of unauthorized access and data exposure.",
+    "warning_signs": [
+      "Open public Wi-Fi",
+      "Unknown hotspots",
+      "Unexpected network names",
+      "Outdated router security"
+    ],
+    "safe_practices": [
+      "Use trusted networks",
+      "Avoid sensitive activity on unknown networks",
+      "Use strong Wi-Fi security",
+      "Keep network equipment updated"
+    ],
+    "action": "Review the security settings of your primary Wi-Fi network."
+  },
+  {
+    "id": "A11",
+    "title": "Mobile Security",
+    "category": "Mobile Security",
+    "what": "Mobile security protects accounts, personal data, applications, and communications on smartphones and tablets.",
+    "warning_signs": [
+      "Unknown applications",
+      "Outdated mobile software",
+      "Unexpected login notifications",
+      "Lost or unattended device"
+    ],
+    "safe_practices": [
+      "Use a strong screen lock",
+      "Keep mobile software updated",
+      "Install applications from trusted sources",
+      "Review application permissions"
+    ],
+    "action": "Review installed applications and remove anything unnecessary or untrusted."
+  },
+  {
+    "id": "A12",
+    "title": "Remote Work Security",
+    "category": "Remote Work",
+    "what": "Secure remote-work practices help protect organizational accounts, devices, and information outside the office.",
+    "warning_signs": [
+      "Unsecured public networks",
+      "Shared work devices",
+      "Sensitive information in public spaces",
+      "Unapproved cloud services"
+    ],
+    "safe_practices": [
+      "Use approved devices and services",
+      "Protect your workspace",
+      "Use MFA",
+      "Follow organizational remote-access policies"
+    ],
+    "action": "Review the security settings and approved access methods for your remote-work setup."
+  },
+  {
+    "id": "A13",
+    "title": "Cloud Account Security",
+    "category": "Cloud Security",
+    "what": "Cloud account security focuses on protecting identities, permissions, data, and connected services.",
+    "warning_signs": [
+      "Unexpected sign-in alerts",
+      "Excessive permissions",
+      "Unknown connected applications",
+      "Publicly shared files"
+    ],
+    "safe_practices": [
+      "Enable MFA",
+      "Review account permissions",
+      "Remove unused access",
+      "Review connected applications"
+    ],
+    "action": "Review active sessions and connected applications on an important cloud account."
+  },
+  {
+    "id": "A14",
+    "title": "Incident Reporting",
+    "category": "Incident Reporting",
+    "what": "Fast reporting helps defenders investigate suspicious events before they grow.",
+    "warning_signs": [
+      "Unexpected login",
+      "Lost device",
+      "Suspicious email",
+      "Unusual account activity"
+    ],
+    "safe_practices": [
+      "Report quickly",
+      "Preserve evidence",
+      "Follow the approved response process"
+    ],
+    "action": "Know the approved security reporting channel."
+  },
+  {
+    "id": "A15",
+    "title": "AI-Enabled Scam Awareness",
+    "category": "Social Engineering",
+    "what": "AI can make scam messages more convincing, so context and verification remain important.",
+    "warning_signs": [
+      "Highly polished unexpected messages",
+      "Voice/video impersonation",
+      "Urgent financial requests"
+    ],
+    "safe_practices": [
+      "Verify identity independently",
+      "Use established approval procedures",
+      "Do not rely only on writing quality"
+    ],
+    "action": "Discuss one independent verification method with your team."
+  }
+]

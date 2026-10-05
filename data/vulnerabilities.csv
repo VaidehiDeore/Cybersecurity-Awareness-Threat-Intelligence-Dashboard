@@ -1,0 +1,5 @@
+vulnerability_id,cve_id,product_category,severity,cvss_score,published_date,patch_available,exploitation_status_demo,description,asset_criticality,exposure,known_exploitation,business_context
+VUL-001,CVE-2099-10001,Browser,HIGH,8.6,2026-08-01,true,DEMO_OBSERVED,Synthetic browser vulnerability awareness record,85,80,90,80
+VUL-002,CVE-2099-10002,VPN,CRITICAL,9.4,2026-08-10,true,DEMO_OBSERVED,Synthetic remote-access vulnerability awareness record,100,95,95,95
+VUL-003,CVE-2099-10003,Office Software,MEDIUM,6.5,2026-07-20,true,NO_EVIDENCE,Synthetic productivity software awareness record,60,45,10,60
+VUL-004,CVE-2099-10004,Server,HIGH,8.1,2026-06-14,false,NO_EVIDENCE,Synthetic server vulnerability awareness record,95,75,30,90
